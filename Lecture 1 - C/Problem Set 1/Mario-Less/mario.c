@@ -25,11 +25,11 @@ int get_height()
     int h;
     do
     {
-        printf("Enter height more than 0 and less than 9.\n");
+        printf("Enter height between 1 and 8.\n");
         printf("Height: ");
         scanf("%d", &h);
     }
-    while ((h < 0) && (h > 9));
+    while ((h < 1) && (h > 8));
     return h;
 }
 

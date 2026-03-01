@@ -1,34 +1,78 @@
-// Header Files
+/*
+    PROBLEM: CASH (CS50 VERSION)
+
+    Write a program that:
+    - Prompts the user for the amount of change owed (in cents).
+    - Calculates the minimum number of coins needed.
+    - Available coins: 25¢, 10¢, 5¢, 1¢.
+    - Uses a greedy algorithm.
+
+    Example:
+    Input: 41
+    Output: 4  (25 + 10 + 5 + 1)
+*/
+
 #include <cs50.h>
 #include <stdio.h>
 
-int get_ChangeOwed(void);
+// Function prototype
+int get_change_owed(void);
 
-// Main Function
 int main(void)
 {
-    int change = get_ChangeOwed();
+    int change = get_change_owed();
+    int coins = 0;
 
-    int quarters = change / 25;
+    // Greedy algorithm: use largest coin first
 
-    int change2 = change % 25;
-    int dimes = change2 / 10;
+    // Count quarters
+    coins += change / 25;
+    change %= 25;
 
-    int change3 = change2 % 10;
-    int nickels = change3 / 5;
+    // Count dimes
+    coins += change / 10;
+    change %= 10;
 
-    int pennies = change3 % 5;
+    // Count nickels
+    coins += change / 5;
+    change %= 5;
 
-    printf("%i\n", quarters + dimes + nickels + pennies);
+    // Remaining pennies
+    coins += change;
+
+    printf("%i\n", coins);
+
+    return 0;
 }
 
-int get_ChangeOwed(void)
+// Prompt user for positive amount
+int get_change_owed(void)
 {
     int change;
+
     do
     {
         change = get_int("Change owed: ");
     }
-    while (change <= 0);
+    while (change < 0);
+
     return change;
 }
+
+/*
+---------------- ALGORITHM ----------------
+
+1. Prompt user for change owed in cents.
+2. Initialize coin counter = 0.
+3. While change >= 25:
+      Add (change / 25) to coins.
+      change = change % 25.
+4. Repeat for 10¢ coins.
+5. Repeat for 5¢ coins.
+6. Add remaining pennies.
+7. Print total coins.
+8. End program.
+
+Time Complexity: O(1)
+Space Complexity: O(1)
+*/

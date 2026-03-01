@@ -1,53 +1,78 @@
-//Header Files
+/*
+    PROBLEM: MARIO (LESS COMFORTABLE) - STANDARD C VERSION
+
+    Write a program that:
+    - Prompts the user for a height between 1 and 8.
+    - Prints a right-aligned pyramid.
+    - No CS50 library used.
+*/
+
 #include <stdio.h>
 
-//Functions
+// Function prototypes
 int get_height(void);
-void print_spaces(int);
-void print_rows(int);
+void print_spaces(int space);
+void print_rows(int row);
 
-//Main Function
-int main ()
+int main(void)
 {
     int height = get_height();
 
-    //Pyramid Building
     for (int i = 0; i < height; i++)
     {
         print_spaces(height - (i + 1));
         print_rows(i + 1);
     }
+
+    return 0;
 }
 
-//Prompt for height for pyramid.
-int get_height()
+// Get height using scanf
+int get_height(void)
 {
-    int h;
+    int height;
+
     do
     {
-        printf("Enter height between 1 and 8.\n");
         printf("Height: ");
-        scanf("%d", &h);
+        scanf("%d", &height);
     }
-    while ((h < 1) && (h > 8));
-    return h;
+    while (height < 1 || height > 8);
+
+    return height;
 }
 
-//Print Spaces
-void print_spaces (int n)
+// Print spaces
+void print_spaces(int space)
 {
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < space; i++)
     {
         printf(" ");
     }
 }
 
-//Print Rows
-void print_rows (int n)
+// Print hashes and newline
+void print_rows(int row)
 {
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < row; i++)
     {
         printf("#");
     }
+
     printf("\n");
 }
+
+/*
+---------------- ALGORITHM ----------------
+
+1. Prompt user for integer height (1–8).
+2. Repeat until valid height is entered.
+3. For each row:
+    a. Print decreasing spaces.
+    b. Print increasing hashes.
+    c. Move to next line.
+4. End program.
+
+Time Complexity: O(n²)
+Space Complexity: O(1)
+*/

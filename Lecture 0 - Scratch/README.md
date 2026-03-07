@@ -881,5 +881,5 @@ Details: [cs50.harvard.edu/x/2026/psets/0](https://cs50.harvard.edu/x/2026/psets
 | | Link |
 |--|------|
 | ⬅️ Previous | *(This is Week 0 — the beginning!)* |
-| ➡️ Next | [Week 1 – C](../week1/README.md) |
+| ➡️ Next | [Week 1 – C](Lecture%201%20-%20C) |
 | 🏠 Main Repo | [Nilanchal0107/CS50x](https://github.com/Nilanchal0107/CS50x) |

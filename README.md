@@ -28,10 +28,10 @@ Tick the box once the lecture, section, and problem set are completed.
 * [x] Week 0 – Scratch
 * [x] Week 1 – C
 * [x] Week 2 – Arrays
-* [ ] Week 3 – Algorithms
+* [x] Week 3 – Algorithms
 * [ ] Week 4 – Memory
 * [ ] Week 5 – Data Structures
-* [ ] Week 6 – Python
+* [x] Week 6 – Python
 * [ ] Week 7 – SQL
 * [ ] Week 8 – HTML, CSS, JavaScript
 * [ ] Week 9 – Flask

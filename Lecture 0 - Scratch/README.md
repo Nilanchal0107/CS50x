@@ -881,5 +881,7 @@ Details: [cs50.harvard.edu/x/2026/psets/0](https://cs50.harvard.edu/x/2026/psets
 | | Link |
 |--|------|
 | ⬅️ Previous | *(This is Week 0 — the beginning!)* |
-| ➡️ Next | [Week 1 – C](Lecture%201%20-%20C) |
+| ➡️ Next | [Week 1 – C](https://github.com/Nilanchal0107/CS50x/tree/main/Lecture%201%20-%20C) |
 | 🏠 Main Repo | [Nilanchal0107/CS50x](https://github.com/Nilanchal0107/CS50x) |
+
+> 📁 This README belongs in: [`Lecture 0 - Scratch`](https://github.com/Nilanchal0107/CS50x/tree/main/Lecture%200%20-%20Scratch)

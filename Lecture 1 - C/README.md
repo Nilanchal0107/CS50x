@@ -1487,7 +1487,7 @@ Build your first C programs! Details at:
 | | Link |
 |--|------|
 | ⬅️ Previous | [Week 0 – Scratch](https://github.com/Nilanchal0107/CS50x/tree/main/Lecture%200%20-%20Scratch) |
-| ➡️ Next | Week 2 – Arrays *(coming soon)* |
+| ➡️ Next | [Week 2 – Arrays](https://github.com/Nilanchal0107/CS50x/tree/main/Lecture%202%20-%20Arrays) |
 | 🏠 Main Repo | [Nilanchal0107/CS50x](https://github.com/Nilanchal0107/CS50x) |
 
 > 📁 This README belongs in: [`Lecture 1 - C`](https://github.com/Nilanchal0107/CS50x/tree/main/Lecture%201%20-%20C)

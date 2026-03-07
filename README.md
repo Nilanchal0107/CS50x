@@ -41,19 +41,21 @@ Tick the box once the lecture, section, and problem set are completed.
 
 # Weekly Topics
 
-| Week          | Topic                 | Status |
-| ------------- | --------------------- | ------ |
-| Week 0        | Scratch               | ✅      |
-| Week 1        | C Programming         | ✅      |
-| Week 2        | Arrays                | ✅      |
-| Week 3        | Algorithms            | ⬜      |
-| Week 4        | Memory                | ⬜      |
-| Week 5        | Data Structures       | ⬜      |
-| Week 6        | Python                | ⬜      |
-| Week 7        | SQL                   | ⬜      |
-| Week 8        | HTML, CSS, JavaScript | ⬜      |
-| Week 9        | Flask                 | ⬜      |
-| Final Project | Independent Project   | ⬜      |
+## Weekly Topics
+
+| Week | Topic | Status |
+|-----|------|------|
+| Week 0 | [Scratch](week0-scratch) | ✅ Completed |
+| Week 1 | [C Programming](week1-c) | ✅ Completed |
+| Week 2 | [Arrays](week2-arrays) | 🔄 Completed |
+| Week 3 | [Algorithms](week3-algorithms) | ⬜ Completed |
+| Week 4 | [Memory](week4-memory) | ⬜ Completed |
+| Week 5 | [Data Structures](week5-data-structures) | ⬜ In Progress |
+| Week 6 | [Python](week6-python) | ⬜ Completed |
+| Week 7 | [SQL](week7-sql) | ⬜ Not Started |
+| Week 8 | [HTML, CSS, JavaScript](week8-web) | ⬜ Not Started |
+| Week 9 | [Flask](week9-flask) | ⬜ Not Started |
+| Final Project | [Independent Project](final-project) | ⬜ Not Started |
 
 ---
 

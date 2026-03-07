@@ -60,17 +60,17 @@ Tick the box once the lecture, section, and problem set are completed.
 ```
 CS50x/
 │
-├── week0-scratch
-├── week1-c
-├── week2-arrays
-├── week3-algorithms
-├── week4-memory
-├── week5-data-structures
-├── week6-python
-├── week7-sql
-├── week8-web
-├── week9-flask
-└── final-project
+├── Lecture 0 - Scratch
+├── Lecture 1 - C
+├── Lecture 2 - Arrays
+├── Lecture 3 - Algorithms
+├── Lecture 4 - Memory
+├── Lecture 5 - Data Structure
+├── Lecture 6 - Python
+├── Lecture 7 - SQL
+├── Lecture 8 - HTML, CSS, JavaScript
+├── Lecture 9 - Flask
+└── Lecture 10 - Final Project
 ```
 
 Each folder contains:

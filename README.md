@@ -40,23 +40,19 @@ Tick the box once the lecture, section, and problem set are completed.
 ---
 
 # Weekly Topics
-
-## Weekly Topics
-
 | Week | Topic | Status |
 |-----|------|------|
-| Week 0 | [Scratch](week0-scratch) | ✅ Completed |
-| Week 1 | [C Programming](week1-c) | ✅ Completed |
-| Week 2 | [Arrays](week2-arrays) | 🔄 Completed |
-| Week 3 | [Algorithms](week3-algorithms) | ⬜ Completed |
-| Week 4 | [Memory](week4-memory) | ⬜ Completed |
-| Week 5 | [Data Structures](week5-data-structures) | ⬜ In Progress |
-| Week 6 | [Python](week6-python) | ⬜ Completed |
-| Week 7 | [SQL](week7-sql) | ⬜ Not Started |
-| Week 8 | [HTML, CSS, JavaScript](week8-web) | ⬜ Not Started |
-| Week 9 | [Flask](week9-flask) | ⬜ Not Started |
-| Final Project | [Independent Project](final-project) | ⬜ Not Started |
-
+| Week 0 | [Scratch](Lecture%200%20-%20Scratch) | ✅ Completed |
+| Week 1 | [C Programming](Lecture%201%20-%20C) | ✅ Completed |
+| Week 2 | [Arrays](Lecture%202%20-%20Arrays) | 🔄 Completed |
+| Week 3 | [Algorithms](Lecture%203%20-%20Algorithms) | ⬜ Completed |
+| Week 4 | [Memory](Lecture%204%20-%20Memory) | ⬜ In Progress |
+| Week 5 | [Data Structures](Lecture%205%20-%20Data%20Structures) | ⬜ In Progress |
+| Week 6 | [Python](Lecture%206%20-%20Python) | ⬜ Completed |
+| Week 7 | [SQL](Lecture%207%20-%20SQL) | ⬜ Not Started |
+| Week 8 | [HTML, CSS, JavaScript](Lecture%208%20-%20HTML%2C%20CSS%2C%20JavaScript) | ⬜ Not Started |
+| Week 9 | [Flask](Lecture%209%20-%20Flask) | ⬜ Not Started |
+| Final Project | [Independent Project](Final%20Project) | ⬜ Not Started |
 ---
 
 # Repository Structure

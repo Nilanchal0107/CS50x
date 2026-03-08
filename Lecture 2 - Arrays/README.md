@@ -1248,7 +1248,7 @@ Implement programs using arrays, strings, command line arguments, and cryptograp
 | | Link |
 |--|------|
 | ⬅️ Previous | [Week 1 – C](https://github.com/Nilanchal0107/CS50x/tree/main/Lecture%201%20-%20C) |
-| ➡️ Next | Week 3 – Algorithms *(coming soon)* |
+| ➡️ Next | [Week 3 – Algorithms](https://github.com/Nilanchal0107/CS50x/tree/main/Lecture%203%20-%20Algorithms) |
 | 🏠 Main Repo | [Nilanchal0107/CS50x](https://github.com/Nilanchal0107/CS50x) |
 
 > 📁 This README belongs in: [`Lecture 2 - Arrays`](https://github.com/Nilanchal0107/CS50x/tree/main/Lecture%202%20-%20Arrays)

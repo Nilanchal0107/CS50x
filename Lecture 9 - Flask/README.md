@@ -1009,7 +1009,7 @@ Build your own full-stack web application using Flask, SQL, HTML, CSS, and JavaS
 
 | | Link |
 |--|------|
-| ⬅️ Previous | [Week 8 – HTML CSS and JavaScript](https://github.com/Nilanchal0107/CS50x/tree/main/Lecture%208%20-%20HTML%20CSS%20and%20JavaScript) |
+| ⬅️ Previous | [Week 8 – HTML CSS and JavaScript](https://github.com/Nilanchal0107/CS50x/tree/main/Lecture%208%20-%20HTML%20CSS%20and%20Javascript) |
 | ➡️ Next | [Week 10 – Final](https://github.com/Nilanchal0107/CS50x/tree/main/Lecture%2010%20-%20Final) |
 | 🏠 Main Repo | [Nilanchal0107/CS50x](https://github.com/Nilanchal0107/CS50x) |
 

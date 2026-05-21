@@ -811,7 +811,7 @@ Apply memory management, pointers, and file I/O to manipulate real-world image f
 | | Link |
 |--|------|
 | ⬅️ Previous | [Week 3 – Algorithms](https://github.com/Nilanchal0107/CS50x/tree/main/Lecture%203%20-%20Algorithms) |
-| ➡️ Next | [Week 5 – Data Structures](https://github.com/Nilanchal0107/CS50x/tree/main/Lecture%205%20-%20Data-%20Structures) |
+| ➡️ Next | [Week 5 – Data Structures](https://github.com/Nilanchal0107/CS50x/tree/main/Lecture%205%20-%20Data%20Structures) |
 | 🏠 Main Repo | [Nilanchal0107/CS50x](https://github.com/Nilanchal0107/CS50x) |
 
 > 📁 This README belongs in: [`Lecture 4 - Memory`](https://github.com/Nilanchal0107/CS50x/tree/main/Lecture%204%20-%20Memory)

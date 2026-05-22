@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            function checkMC(button, isCorrect) {
+                // Reset all buttons in the options div
+                let buttons = button.parentElement.querySelectorAll('button');
+                buttons.forEach(btn => {
+                    btn.style.backgroundColor = '#d9edff';
+                });
+
+                let feedback = document.getElementById('mc-feedback');
+
+                if (isCorrect) {
+                    button.style.backgroundColor = 'green';
+                    feedback.textContent = 'Correct!';
+                    feedback.className = 'feedback correct';
+                } else {
+                    button.style.backgroundColor = 'red';
+                    feedback.textContent = 'Incorrect';
+                    feedback.className = 'feedback incorrect';
+                }
+            }
+
+            function checkFR() {
+                let input = document.getElementById('fr-input');
+                let answer = input.value.trim().toLowerCase();
+                let feedback = document.getElementById('fr-feedback');
+
+                if (answer === '2') {
+                    input.style.backgroundColor = 'green';
+                    feedback.textContent = 'Correct!';
+                    feedback.className = 'feedback correct';
+                } else {
+                    input.style.backgroundColor = 'red';
+                    feedback.textContent = 'Incorrect';
+                    feedback.className = 'feedback incorrect';
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice</h2>
+                <hr>
+                <h3>Which data structure follows the Last In, First Out (LIFO) principle?</h3>
+                <div id="mc-options">
+                    <button onclick="checkMC(this, false)">A. Queue</button>
+                    <button onclick="checkMC(this, true)">B. Stack</button>
+                    <button onclick="checkMC(this, false)">C. Linked List</button>
+                    <button onclick="checkMC(this, false)">D. Tree</button>
+                </div>
+                <div id="mc-feedback" class="feedback"></div>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>What is the smallest prime number?</h3>
+                <input id="fr-input" type="text" placeholder="Your answer">
+                <button onclick="checkFR()">Submit</button>
+                <div id="fr-feedback" class="feedback"></div>
+            </div>
+        </div>
+
+    </body>
+
+</html>

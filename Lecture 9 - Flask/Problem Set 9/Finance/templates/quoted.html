@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+<h2 class="mb-4">Stock Quote</h2>
+
+<table class="table table-bordered mx-auto w-auto">
+    <thead class="table-dark">
+        <tr>
+            <th>Company</th>
+            <th>Symbol</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <!-- quote is a dict: {"name": "...", "symbol": "...", "price": 123.45} -->
+             <td>{{ quote.name }}</td>
+             <td>{{ quote.symbol }}</td>
+             <!-- | usd formats 123.45 as $123.45 -->
+             <td>{{ quote.price | usd }}</td>
+        </tr>
+    </tbody>
+</table>
+
+<a href="/buy" class="btn btn-success mt-2">Buy Shares</a>
+{% endblock %}

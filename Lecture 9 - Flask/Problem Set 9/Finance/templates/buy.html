@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}Buy{% endblock %}
+
+{% block main %}
+<h2 class="mb-4">Buy Shares</h2>
+
+<form action="/buy" method="post">
+
+    <!-- Stock Symbol Input -->
+     <div class="mb-3">
+        <input autofocus
+            class="form-control mx-auto w-auto"
+            name="symbol"
+            placeholder="Symbol (e.g. AAPL)"
+            type="text">
+     </div>
+
+     <!-- Number of shares - min="1" prevents 0 or negative in the browser -->
+     <!-- But we also validate server-side in app.py! -->
+      <div class="mb-3">
+        <input class="form-control mx-auto w-auto"
+        min="1"
+        name="shares"
+        placeholder="Number of Shares"
+        type="number">
+      </div>
+
+      <button class="btn btn-success" type="submit">Buy</button>
+
+</form>
+{% endblock %}

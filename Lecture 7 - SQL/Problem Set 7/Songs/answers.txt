@@ -1,0 +1,8 @@
+Through the queries, I noticed that songs with higher energy and danceability
+scores tended to dominate the top charts. Spotify could use similar audio feature
+data to recommend songs that match a user's listening patterns — for instance,
+suggesting high-tempo tracks to someone who frequently plays energetic music.
+However, this approach has limitations: it ignores lyrical content, cultural
+context, and the social factors that influence what people enjoy. A song
+recommended purely on audio similarity might feel technically similar but
+emotionally mismatched to the listener.

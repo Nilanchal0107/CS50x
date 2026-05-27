@@ -29,30 +29,31 @@ Tick the box once the lecture, section, and problem set are completed.
 * [x] Week 1 – C
 * [x] Week 2 – Arrays
 * [x] Week 3 – Algorithms
-* [ ] Week 4 – Memory
-* [ ] Week 5 – Data Structures
+* [x] Week 4 – Memory
+* [x] Week 5 – Data Structures
 * [x] Week 6 – Python
-* [ ] Week 7 – SQL
-* [ ] Week 8 – HTML, CSS, JavaScript
-* [ ] Week 9 – Flask
-* [ ] Final Project
+* [x] Week 7 – SQL
+* [x] Week 8 – HTML, CSS, JavaScript
+* [x] Week 9 – Flask
+* [x] Final Project
 
 ---
 
 # Weekly Topics
 | Week | Topic | Status |
 |-----|------|------|
+| Extras | [Artificial Intelligence](Artificial%20Intelligence) | ✅ Completed |
 | Week 0 | [Scratch](Lecture%200%20-%20Scratch) | ✅ Completed |
 | Week 1 | [C Programming](Lecture%201%20-%20C) | ✅ Completed |
 | Week 2 | [Arrays](Lecture%202%20-%20Arrays) | ✅️ Completed |
 | Week 3 | [Algorithms](Lecture%203%20-%20Algorithms) | ✅️ Completed |
-| Week 4 | [Memory](Lecture%204%20-%20Memory) | ⬜ In Progress |
-| Week 5 | [Data Structures](Lecture%205%20-%20Data%20Structures) | ⬜ In Progress |
+| Week 4 | [Memory](Lecture%204%20-%20Memory) | ✅ Completed|
+| Week 5 | [Data Structures](Lecture%205%20-%20Data%20Structures) | ✅ Completed |
 | Week 6 | [Python](Lecture%206%20-%20Python) | ✅️ Completed |
-| Week 7 | [SQL](Lecture%207%20-%20SQL) | ⬜ Not Started |
-| Week 8 | [HTML, CSS, JavaScript](Lecture%208%20-%20HTML%2C%20CSS%2C%20JavaScript) | ⬜ Not Started |
-| Week 9 | [Flask](Lecture%209%20-%20Flask) | ⬜ Not Started |
-| Final Project | [Independent Project](Final%20Project) | ⬜ Not Started |
+| Week 7 | [SQL](Lecture%207%20-%20SQL) | ✅ Completed |
+| Week 8 | [HTML, CSS, JavaScript](Lecture%208%20-%20HTML%20CSS%20and%20Javascript) | ✅ Completed |
+| Week 9 | [Flask](Lecture%209%20-%20Flask) | ✅ Completed |
+| Final Project | [SpeakUp](https://github.com/Nilanchal0107/SpeakUp) | ✅ Completed |
 ---
 
 # Repository Structure
@@ -69,8 +70,8 @@ CS50x/
 ├── Lecture 6 - Python
 ├── Lecture 7 - SQL
 ├── Lecture 8 - HTML, CSS, JavaScript
-├── Lecture 9 - Flask
-└── Lecture 10 - Final Project
+└── Lecture 9 - Flask
+
 ```
 
 Each folder contains:
@@ -94,6 +95,9 @@ Some problems solved in this repository:
 * Substitution
 * Runoff
 * Tideman
+* Fiftyville, Movies, Songs
+* Trivia, Homepage
+* Finance
 
 ---
 
@@ -111,9 +115,23 @@ Some problems solved in this repository:
 
 # Final Project
 
-The final project will be built at the end of the course and will demonstrate the concepts learned throughout CS50.
+[*SpeakUp — AI Communication Skills Trainer*](https://github.com/Nilanchal0107/SpeakUp).
 
-Details will be added once the project is completed.
+SpeakUp is a web application that helps users improve their spoken English communication skills through AI-powered feedback.
+
+---
+
+## 🧠 Skills Gained
+- Memory management in C (pointers, malloc, free)
+- Sorting and searching algorithms
+- Relational databases with SQL
+- Full-stack web development with Flask
+- AI integration with Groq API
+
+---
+
+## 🎓 Certificate
+[View Certificate](https://cs50.harvard.edu/certificates/fbd171d7-5568-4325-aa83-086553349f3b)
 
 ---
 

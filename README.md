@@ -2,7 +2,7 @@
 
 ![CS50x](https://img.shields.io/badge/Harvard-CS50x-red)
 ![Language](https://img.shields.io/badge/Languages-C%20Python%20SQL%20JS-blue)
-![Status](https://img.shields.io/badge/Progress-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Progress-Completed-green)
 
 This repository contains my solutions, notes, and projects from **CS50x – Harvard University's Introduction to Computer Science**.
 
